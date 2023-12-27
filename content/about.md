@@ -1,7 +1,7 @@
 +++
 title = 'About'
 date = 2023-12-27T12:53:13+02:00
-draft = true
+draft = false
 +++
 
 ## Hard skills
