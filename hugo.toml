@@ -1,6 +1,6 @@
 baseurl = "http://www.example.com"
 title = "johndoe"
-theme = "hugo-coder"
+theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
