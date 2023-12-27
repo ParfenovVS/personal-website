@@ -1,21 +1,21 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://vladimirparfenov.me"
+title = "Vladimir Parfenov"
 theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "Vladimir P."
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
-  author = "John Doe"
-  info = "Full Stack DevOps and Magician"
-  description = "John Doe's personal website"
-  keywords = "blog,developer,personal"
+  author = "Vladimir Parfejov"
+  info = "Engineering Manager\nTechnical Lead"
+  description = "Vladimir Parfenov's personal website"
+  keywords = "developer,personal"
   avatarurl = "images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
@@ -45,24 +45,24 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
-[[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://github.com/ParfenovVS/"
+# [[params.social]]
+  # name = "Gitlab"
+  # icon = "fa fa-gitlab fa-2x"
+  # weight = 2
+  # url = "https://gitlab.com/johndoe/"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/Vladimir_Parf/"
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
   url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 1
+  url  = "projects/"
