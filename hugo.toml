@@ -12,11 +12,11 @@ disqusShortname = "Vladimir P."
 style = "github-dark"
 
 [params]
-  author = "Vladimir Parfejov"
-  info = "Engineering Manager\nTechnical Lead"
+  author = "Vladimir Parfenov"
+  info = "Engineering Manager / Technical Lead"
   description = "Vladimir Parfenov's personal website"
   keywords = "developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "/images/avatar.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
@@ -42,27 +42,41 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:parfenov.vladimir.s@gmail.com"
+[[params.social]]
   name = "Github"
   icon = "fa fa-github fa-2x"
-  weight = 1
+  weight = 2
   url = "https://github.com/ParfenovVS/"
-# [[params.social]]
-  # name = "Gitlab"
-  # icon = "fa fa-gitlab fa-2x"
-  # weight = 2
-  # url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/vladimir-parfenov/"
+[[params.social]]
+  name = "Facebook"
+  icon = "fa fa-facebook fa-2x"
+  weight = 4
+  url = "https://www.facebook.com/vladimirparf"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
-  weight = 3
+  weight = 5
   url = "https://twitter.com/Vladimir_Parf/"
 
 # Menu links
 [[menu.main]]
   name = "About"
-  weight = 2
+  weight = 1
   url = "about/"
 [[menu.main]]
   name = "Projects"
-  weight = 1
+  weight = 2
   url  = "projects/"
+[[menu.main]]
+  name = "Contact me"
+  weight = 3
+  url  = "contact/"
