@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Engineering Manager / Technical Lead"
   description = "Vladimir Parfenov's personal website"
   keywords = "developer,personal"
-  avatarurl = "/images/avatar.jpg"
+  avatarurl = "https://i.postimg.cc/jStmd3KZ/temp-Image-Bv-KXm-M.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
