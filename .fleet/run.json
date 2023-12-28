@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Run locally",
+            "type": "command",
+            "program": "hugo",
+            "args": [
+                "server"
+            ]
+        }
+    ]
+}
