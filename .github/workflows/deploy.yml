@@ -22,6 +22,8 @@ defaults:
 jobs: 
   create-pdf: 
     runs-on: ubuntu-latest
+    outputs: 
+      artifact-id: ${{ steps.upload.outputs.artifact-id }}
     steps: 
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -42,10 +44,15 @@ jobs:
         run: npm install -g md-to-pdf
       - name: Convert Markdown files to PDF
         run: md-to-pdf export/cv.md
-      - name: Move PDF
-        run: |
-          mkdir static/pdf
-          mv export/cv.pdf static/pdf/vladimirparfenov.pdf
+      - name: Upload PDF
+        id: upload
+        uses: actions/upload-artifact@v4
+        with: 
+          name: vladimirparfenov.pdf
+          path: export/vladimirparfenov.pdf
+          compression-level: 0
+      - name: Set outputs
+        run: echo "artifact-id=${{ steps.upload.outputs.artifact-id }}" >> "$GITHUB_OUTPUT"
 
   build: 
     runs-on: ubuntu-latest
@@ -63,6 +70,8 @@ jobs:
         uses: actions/checkout@v4
         with: 
           submodules: recursive
+      - name: Update PDF URL
+        run: python export/update_pdf_url.py ${{ needs.create-pdf.outputs.artifact-id }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
