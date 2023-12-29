@@ -12,79 +12,83 @@ disqusShortname = "Vladimir P."
 style = "github-dark"
 
 [params]
-  author = "Vladimir Parfenov"
-  info = "Engineering Manager / Technical Lead"
-  description = "Vladimir Parfenov's personal website"
-  keywords = "developer,personal"
-  avatarurl = "/images/avatar.jpg"
+author = "Vladimir Parfenov"
+info = "Engineering Manager / Technical Lead"
+description = "Vladimir Parfenov's personal website"
+keywords = "developer,personal"
+avatarurl = "/images/avatar.jpg"
 #  gravatar = "parfenov.vladimir.s@gmail.com"
 
-  faviconSVG = "/images/favicon.svg"
-  favicon_32 = "/images/favicon-32x32.png"
-  favicon_16 = "/images/favicon-16x16.png"
+faviconSVG = "/images/favicon.svg"
+favicon_32 = "/images/favicon-32x32.png"
+favicon_16 = "/images/favicon-16x16.png"
 
-  since = 2014
+since = 2014
 
-  enableTwemoji = true
+enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = true
+colorScheme = "auto"
+hidecolorschemetoggle = true
 
 #  customCSS = ["css/mui.css"]
-  # customSCSS = ["scss/custom.scss"]
+# customSCSS = ["scss/custom.scss"]
 #  customJS = ["js/mui.js"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Email"
-  icon = "fa fa-envelope fa-2x"
-  weight = 1
-  url = "mailto:parfenov.vladimir.s@gmail.com"
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+weight = 1
+url = "mailto:parfenov.vladimir.s@gmail.com"
 [[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 2
-  url = "https://github.com/ParfenovVS/"
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 2
+url = "https://github.com/ParfenovVS/"
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 3
-  url = "https://www.linkedin.com/in/vladimir-parfenov/"
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/vladimir-parfenov/"
 [[params.social]]
-  name = "Facebook"
-  icon = "fa fa-facebook fa-2x"
-  weight = 4
-  url = "https://www.facebook.com/vladimirparf"
+name = "Facebook"
+icon = "fa fa-facebook fa-2x"
+weight = 4
+url = "https://www.facebook.com/vladimirparf"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 5
-  url = "https://twitter.com/Vladimir_Parf/"
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 5
+url = "https://twitter.com/Vladimir_Parf/"
 
 # Menu links
 [[menu.main]]
-  name = "Home"
-  weight = 1
-  url = "/"
+name = "Home"
+weight = 1
+url = "/"
 [[menu.main]]
-  name = "Experience"
-  weight = 2
-  url = "about/"
+name = "Experience"
+weight = 2
+url = "about/"
 #[[menu.main]]
 #  name = "Work history"
 #  weight = 3
 #  url = "work/"
 [[menu.main]]
-  name = "Projects"
-  weight = 4
-  url  = "projects/"
+name = "Projects"
+weight = 4
+url = "projects/"
 [[menu.main]]
-  name = "Contact me"
-  weight = 5
-  url  = "contact/"
+name = "Contact"
+weight = 5
+url = "contact/"
+[[menu.main]]
+name = "Download PDF"
+weight = 6
+url = "/pdf/vladimirparfenov.pdf"

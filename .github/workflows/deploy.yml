@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on: 
@@ -7,29 +6,52 @@ on:
       - main
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions: 
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency: 
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
 defaults: 
   run: 
     shell: bash
 
 jobs: 
-  # Build job
+  create-pdf: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with: 
+          python-version: '3.x'
+      - name: Install Dependencies
+        run: |
+          pip install toml
+      - name: Run Python Script
+        run: export/make_single_md.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with: 
+          node-version: '14'
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+      - name: Convert Markdown files to PDF
+        run: md-to-pdf export/cv.md
+      - name: Move PDF
+        run: |
+          mkdir static/pdf
+          mv export/cv.pdf static/pdf/vladimirparfenov.pdf
+
   build: 
     runs-on: ubuntu-latest
     env: 
       HUGO_VERSION: 0.120.4
+    needs: create-pdf
     steps: 
       - name: Install Hugo CLI
         run: |
@@ -60,7 +82,6 @@ jobs:
         with: 
           path: ./public
 
-  # Deployment job
   deploy: 
     environment: 
       name: github-pages
