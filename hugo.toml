@@ -1,4 +1,4 @@
-baseurl = "https://parfenovvs.github.io/personal-website/"
+baseurl = "https://vladimirparfenov.me"
 title = "Vladimir Parfenov"
 theme = "coder"
 languagecode = "en"
@@ -16,8 +16,8 @@ style = "github-dark"
   info = "Engineering Manager / Technical Lead"
   description = "Vladimir Parfenov's personal website"
   keywords = "developer,personal"
-  avatarurl = "https://i.postimg.cc/jStmd3KZ/temp-Image-Bv-KXm-M.jpg"
-  #gravatar = "john.doe@example.com"
+  avatarurl = "/images/avatar.jpg"
+#  gravatar = "parfenov.vladimir.s@gmail.com"
 
   faviconSVG = "/images/favicon.svg"
   favicon_32 = "/images/favicon-32x32.png"
@@ -30,9 +30,9 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = true
 
-  # customCSS = ["css/custom.css"]
+#  customCSS = ["css/mui.css"]
   # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+#  customJS = ["js/mui.js"]
 
 [taxonomies]
   category = "categories"
@@ -69,14 +69,22 @@ style = "github-dark"
 
 # Menu links
 [[menu.main]]
-  name = "About"
+  name = "Home"
   weight = 1
+  url = "/"
+[[menu.main]]
+  name = "Experience"
+  weight = 2
   url = "about/"
+#[[menu.main]]
+#  name = "Work history"
+#  weight = 3
+#  url = "work/"
 [[menu.main]]
   name = "Projects"
-  weight = 2
+  weight = 4
   url  = "projects/"
 [[menu.main]]
   name = "Contact me"
-  weight = 3
+  weight = 5
   url  = "contact/"
