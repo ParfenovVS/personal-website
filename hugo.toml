@@ -79,6 +79,7 @@ url = "contact/"
 [[menu.main]]
 name = "Download PDF"
 weight = 6
+url = "pdf/vladimirparfenov.pdf"
 
 [markup.highlight]
 style = "github-dark"
