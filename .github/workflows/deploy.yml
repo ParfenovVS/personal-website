@@ -1,6 +1,9 @@
 name: Deploy Hugo site to Pages
 
 on: 
+  schedule: 
+    # Runs at 00:00 UTC on the 1st day of every second month
+    - cron: '0 0 1 */2 *'
   push: 
     branches: 
       - main
