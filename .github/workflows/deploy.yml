@@ -24,20 +24,20 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with: 
           python-version: '3.x'
       - name: Install Dependencies
         run: |
           pip install toml
       - name: Run Python Script
-        run: export/make_single_md.py
+        run: python export/make_single_md.py
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with: 
-          node-version: '14'
+          node-version: 18
       - name: Install md-to-pdf
         run: npm install -g md-to-pdf
       - name: Convert Markdown files to PDF
