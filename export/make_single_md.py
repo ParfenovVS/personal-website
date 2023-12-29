@@ -27,5 +27,5 @@ image_pattern = r'!\[.*?\]\(.*?\)'
 experience_md = re.sub(image_pattern, '', experience_md)
 md_content += experience_md
 
-with open('export/cv.md', 'w') as file:
+with open('export/vladimirparfenov.md', 'w') as file:
     file.write(md_content)
