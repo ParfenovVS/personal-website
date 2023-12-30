@@ -37,6 +37,12 @@ icon = "fa fa-linkedin fa-2x"
 weight = 3
 url = "https://www.linkedin.com/in/vladimir-parfenov/"
 
+[[params.social]]
+name = "Download PDF"
+icon = "fa fa-download fa-2x"
+weight = 4
+url = "pdf/vladimirparfenov.pdf"
+
 #[[params.social]]
 #name = "Facebook"
 #icon = "fa fa-facebook fa-2x"
@@ -65,6 +71,11 @@ url = "/"
 name = "Experience"
 weight = 2
 url = "about/"
+
+[[menu.main]]
+name = "Work history"
+weight = 3
+url = "work/"
 
 [[menu.main]]
 name = "Projects"

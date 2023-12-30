@@ -4,7 +4,7 @@ date = 2023-12-27T12:53:13+02:00
 draft = false
 +++
 
-I have an experience in several topics. Some of them result applications in store. Check [Projects](/projects) page for more details.
+I have an experience in several topics. Some of them result applications in store. Check [Projects](https://vladimirparfenov.me/projects) page for more details.
 
 ##### Topics:
 - [Management / Leadership](#management--leadership)
