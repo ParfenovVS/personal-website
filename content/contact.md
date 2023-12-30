@@ -20,10 +20,10 @@ draft = false
 
 [Vladimir P.](https://www.upwork.com/freelancers/~0131843df76bba9798)
 
-**Facebook**
+<!-- **Facebook** -->
 
-[vladimirparf](https://www.facebook.com/vladimirparf)
+<!-- [vladimirparf](https://www.facebook.com/vladimirparf) -->
 
-**Twitter**
+<!-- **Twitter** -->
 
-[@Vladimir_Parf](https://twitter.com/Vladimir_Parf)
+<!-- [@Vladimir_Parf](https://twitter.com/Vladimir_Parf) -->
