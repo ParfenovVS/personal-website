@@ -4,7 +4,8 @@ import re
 with open('hugo.toml', 'r') as file:
     data = toml.load(file)
 
-md_content = '# ' + data['params']['author']
+md_content = '''<img src="../static/images/avatar_small.jpg" alt="drawing" width="160"/>\n\n'''
+md_content += '# ' + data['params']['author']
 md_content += "\n\n"
 md_content += '**' + data['params']['info'] + "**"
 md_content += "\n\n"
