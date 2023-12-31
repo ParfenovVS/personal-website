@@ -94,3 +94,7 @@ url = "pdf/vladimirparfenov.pdf"
 
 [markup.highlight]
 style = "github-dark"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-XH8TQKPKLR'
