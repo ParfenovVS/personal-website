@@ -11,6 +11,7 @@ I have an experience in several topics. Some of them result applications in stor
 - [Android Development](#android-development)
 - [DevOps](#devops)
 - [Teaching](#teaching)
+- [Certificates](#certificates)
 
 ### Management / Leadership
 
@@ -56,3 +57,9 @@ Technologies I use or have experience to setup mobile CI/CD:
 When I was learing programming languages I found myself in teaching. It was easy to me to explain difficult topics to others. So, I started working as a personal mentor. This hobby became a work in class with a group of students. I have spent a few years working as a teacher of Java and Android Development.
 
 ![alt](/images/teaching_1.jpg) ![alt](/images/teaching_2.jpg) ![alt](/images/teaching_3.jpg) ![alt](/images/teaching_4.jpg) ![alt](/images/teaching_5.jpg) ![alt](/images/teaching_6.jpg) ![alt](/images/teaching_7.jpg) ![alt](/images/teaching_8.jpg)
+
+### Certificates
+
+##### Engineering Manager
+
+![alt](/images/certificates/em.jpg)
