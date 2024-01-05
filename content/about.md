@@ -62,4 +62,12 @@ When I was learing programming languages I found myself in teaching. It was easy
 
 ##### Engineering Manager
 
+[Show credential](https://www.educative.io/verify-certificate/mwo3kDt60GMPWLKZEU3ymARxJqQ9F8)
+
 ![alt](/images/certificates/em.jpg)
+
+##### Firebase on the Web
+
+[Show credential](https://www.educative.io/verify-certificate/93wkpq3D4vyCNy85lAAmxvSZg78Jwr6POFN)
+
+![alt](/images/certificates/firebase.jpg)
