@@ -17,7 +17,7 @@ I have an experience in several topics. Some of them result applications in stor
 
 Currently, I am working as an Engineering Manager of Android dev and QA teams. My responsibilities are:
 - Manage developers and QA engineers of mobile team (1-on-1, performance reviews, etc.)
-- Provide technical and architecture desicions in projects (applications and internal SDKs)
+- Provide technical and architecture decisions in projects (applications and internal SDKs)
 - Host Scrum ceremonies
 - Hands-on coding in certain cases
 - Setup and maintain DevOps infrastructure for mobile projects
@@ -40,7 +40,7 @@ My experience in Android Development started in 2015 from local startup. I have 
 
 ### DevOps
 
-Technologies I use or have experience to setup mobile CI/CD:
+Technologies I use or have an experience to setup mobile CI/CD:
 - Ansible
 - Github Actions
 - Gitlab Pipelines
@@ -54,7 +54,7 @@ Technologies I use or have experience to setup mobile CI/CD:
 
 ### Teaching
 
-When I was learing programming languages I found myself in teaching. It was easy to me to explain difficult topics to others. So, I started working as a personal mentor. This hobby became a work in class with a group of students. I have spent a few years working as a teacher of Java and Android Development.
+When I was learning programming languages, I found myself in teaching. It was easy for me to explain difficult topics to others. So, I started working as a personal mentor. This hobby became a work in class with a group of students. I have spent a few years working as a teacher of Java and Android Development.
 
 ![alt](/images/teaching_1.jpg) ![alt](/images/teaching_2.jpg) ![alt](/images/teaching_3.jpg) ![alt](/images/teaching_4.jpg) ![alt](/images/teaching_5.jpg) ![alt](/images/teaching_6.jpg) ![alt](/images/teaching_7.jpg) ![alt](/images/teaching_8.jpg)
 
